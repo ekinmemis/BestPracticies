@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{40373A36-402A-4D27-9346-1BE52136953E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{6C28EFF2-316A-4516-8CFA-3324E5FA5FD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taze.Core", "Libraries\Taze.Core\Taze.Core.csproj", "{91B63A22-4F2D-4E37-8C23-BCA443DD16AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taze.Data", "Libraries\Taze.Data\Taze.Data.csproj", "{4545B5CA-AE70-46EC-80D8-91377BC29EA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taze.Services", "Libraries\Taze.Services\Taze.Services.csproj", "{042132AC-0AD8-4F75-8E35-49DADAAC9F25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taze.Web.Api", "Presentation\Taze.Web.Api\Taze.Web.Api.csproj", "{BF680141-648B-4143-8842-DA868EFB5CEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91B63A22-4F2D-4E37-8C23-BCA443DD16AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B63A22-4F2D-4E37-8C23-BCA443DD16AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B63A22-4F2D-4E37-8C23-BCA443DD16AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B63A22-4F2D-4E37-8C23-BCA443DD16AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4545B5CA-AE70-46EC-80D8-91377BC29EA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4545B5CA-AE70-46EC-80D8-91377BC29EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4545B5CA-AE70-46EC-80D8-91377BC29EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4545B5CA-AE70-46EC-80D8-91377BC29EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{042132AC-0AD8-4F75-8E35-49DADAAC9F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{042132AC-0AD8-4F75-8E35-49DADAAC9F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{042132AC-0AD8-4F75-8E35-49DADAAC9F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{042132AC-0AD8-4F75-8E35-49DADAAC9F25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF680141-648B-4143-8842-DA868EFB5CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF680141-648B-4143-8842-DA868EFB5CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF680141-648B-4143-8842-DA868EFB5CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF680141-648B-4143-8842-DA868EFB5CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{91B63A22-4F2D-4E37-8C23-BCA443DD16AA} = {40373A36-402A-4D27-9346-1BE52136953E}
+		{4545B5CA-AE70-46EC-80D8-91377BC29EA7} = {40373A36-402A-4D27-9346-1BE52136953E}
+		{042132AC-0AD8-4F75-8E35-49DADAAC9F25} = {40373A36-402A-4D27-9346-1BE52136953E}
+		{BF680141-648B-4143-8842-DA868EFB5CEA} = {6C28EFF2-316A-4516-8CFA-3324E5FA5FD6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46A48129-8FB7-4C1E-9940-5C429F2DF014}
+	EndGlobalSection
+EndGlobal

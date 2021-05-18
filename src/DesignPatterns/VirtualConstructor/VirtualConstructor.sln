@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualConstructor", "VirtualConstructor\VirtualConstructor.csproj", "{58571AE4-6273-49E3-9F04-32894008869A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finans", "Finans\Finans.csproj", "{3620C4ED-B902-465A-9710-E34AD3CD5034}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58571AE4-6273-49E3-9F04-32894008869A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58571AE4-6273-49E3-9F04-32894008869A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58571AE4-6273-49E3-9F04-32894008869A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58571AE4-6273-49E3-9F04-32894008869A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3620C4ED-B902-465A-9710-E34AD3CD5034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3620C4ED-B902-465A-9710-E34AD3CD5034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3620C4ED-B902-465A-9710-E34AD3CD5034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3620C4ED-B902-465A-9710-E34AD3CD5034}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8CB77B6-8C6F-435C-97E7-310B69B9EBAF}
+	EndGlobalSection
+EndGlobal
